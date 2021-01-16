@@ -191,9 +191,9 @@ $(document).ready(function(){
         $('.active-tstimonial-carusel').owlCarousel({
         items:3,
         margin:30,
-        autoplay:true,
+        autoplay:false,
         loop:false,
-        dots: false,       
+        dots: true,       
             responsive: {
             0: {
                 items: 1
